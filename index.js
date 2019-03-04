@@ -11,11 +11,12 @@ function nestedTarget(){
 function increaseRankBy(n){
    var ranked = document.getElementById("ranked")
   for(var i = 0; i < ranked.length; i ++){
-    
+    return 1
   }
 }
 
 function deepestChild() {
   var deep = document.getElementById("grand-node")
-  var deepest = 
+  var deepest = deep[deep.length-1]
+  return deepest
 }
