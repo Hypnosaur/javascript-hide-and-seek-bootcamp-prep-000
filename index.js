@@ -9,7 +9,10 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  
+   var ranked = document.getElementById("ranked")
+  for(var i = 0; i < ranked.length; i ++){
+    
+  }
 }
 
 function deepestChild()
